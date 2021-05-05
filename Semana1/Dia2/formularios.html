@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form>div {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios en Html</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ejemplo: Lenin" />
+            </div>
+            <div>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" placeholder="Ejemplo Azaña" />
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" placeholder="ejemplo 34">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="email" id="email" placeholder="ejemplo lenin@hotmail.com">
+            </div>
+
+            <div>
+                <label for="fecha">fecha de matricula</label>
+                <input type="date" id="fecha">
+            </div>
+            <div>
+                <label for="bootcamp">seleccione bootcamp:</label>
+                <select name="bootcamp" id=" bootcamp">
+                    <option value="web">desarrollo web full stack</option>
+                    <option value="mkt">marketing digital</option>
+                    <option value="apps">desarollo de aplicaciones movil</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensaje">mensaje</label>
+                <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="">escoja turno</label>
+                <br />
+                <label for="">turno dia</label>
+                <input type="radio" id="dia" name="turno">
+                <br>
+                <label for="">noche</label>
+                <input type="radio" id="noche" name="turno"> 
+            </div>
+            <div>
+                <label for="">seleccione equipos a utilizar</label>
+                <br>
+                <label for="audifonos">audifonos</label>
+                <input type="checkbox" id="audifonos">
+                <br>
+                <label for="laptop">laptop</label>
+                <input type="checkbox" id="laptop">
+                <br>
+                <label for="mouse">mouse</label>
+                <input type="checkbox" id="mouse">
+                
+            </div>
+
+        </form>
+    </main>
+
+</html>
