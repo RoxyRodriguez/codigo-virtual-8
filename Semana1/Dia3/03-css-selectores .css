@@ -1,0 +1,37 @@
+/* h2 selecciona a todos los h2 de la página */
+h2{
+    color: tomato ;
+}
+p, h1 {
+    color: #666;
+}
+.sombra{
+    box-shadow: 0 2px 8px #888;
+}
+.text-danger{
+    color: red;
+}
+.text-success{
+    color: green;
+}
+/* todos los parrafos que sean descedientes de un section pueden ser hijos, nietos, etc, etc */
+section p{
+    font-size: 12px;
+}
+/* todas las etiquetas que tengan la clase badge-back que sean descendientes de un parrafo */
+p .badge-black{
+    background-color: #222;
+    color: #eee;
+
+}
+ul>li{
+    font-style: italic;
+}
+ol>li{
+    font-style: normal;
+}
+/* elemento:hover =>estilos que se aplicaran en un elemento cuando el mouse este encima del mismo
+ */
+ul>li:hover{
+    background-color: #eee;
+}
