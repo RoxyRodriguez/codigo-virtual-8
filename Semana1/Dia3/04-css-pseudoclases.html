@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,17 @@
     <link rel="stylesheet" href="./04-css-pseudoclases.css">
     <title>Document</title>
 </head>
+
 <body>
+    <nav>
+        <ul>
+            <li><a href="#" class="nav-link active">link 2</a></li>
+            <li><a href="#" class="nav-link">link 1</a></li>
+            <li><a href="#" class="nav-link">link 3</a></li>
+        </ul>
+    </nav>
     <main>
-        <table border="1">
+        <table>
             <thead>
                 <tr>
                     <th>cabecera - 1</th>
@@ -37,7 +46,7 @@
                     <td>contenido -3</td>
                     <td>contenido -4</td>
                 </tr>
-                <tr>
+                <tr class="total">
                     <td>contenido -1</td>
                     <td>contenido -2</td>
                     <td>contenido -3</td>
@@ -45,7 +54,62 @@
                 </tr>
             </tbody>
         </table>
+        <hr>
+
+        <section>
+            <h2>titulo 1</h2>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+        </section>
+        <section>
+            <h2>titulo 2</h2>
+            <p>lorem</p>
+            <p>lorem</p>
+            <p>lorem</p>
+        </section>
+
+        <!-- section*2>h3+p*3{parrafo} -->
+        <section>
+            <h3>TITULO H3</h3>
+            <p>parrafo</p>
+            <p>parrafo</p>
+            <p>parrafo</p>
+        </section>
+        <section>
+            <h3>TITULO H3</h3>
+            <p>parrafo</p>
+            <p>parrafo</p>
+            <p>parrafo</p>
+        </section>
+
+        <article>
+             <h4>
+                 titulo del articulo
+             </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat, veniam laborum omnis
+                mollitia quasi id officiis possimus vero dignissimos qui et at beatae modi corporis in excepturi optio
+                dolorem.</p>
+        </article>
+        <article > 
+            <h4>
+            titulo del articulo
+        </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ducimus iusto fugiat quas saepe
+                reiciendis, sapiente, modi dicta eos iste explicabo nesciunt neque pariatur aliquam! Voluptate deserunt
+                mollitia incidunt nam?</p>
+        </article>
+        <article class="agotado"> 
+            <h4>
+            titulo del articulo
+        </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vel consequuntur eos ab deleniti.
+                Repellendus excepturi, ut nemo dicta et in perferendis sequi natus dolorem similique laborum quas modi
+                id.</p>
+        </article>
     </main>
-    
+
+
 </body>
+
 </html>
