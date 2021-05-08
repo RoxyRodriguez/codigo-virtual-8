@@ -10,6 +10,10 @@ body{
     font-family: 'misegundafuente';/*  el nombre "miprimerafuente" es un nombre cualquiera, solo para asignar al nombre de la fuente asignada.*/
     src: url('../FuentesGlobales/Montserrat-ExtraLightItalic.ttf');
 }
+@font-face {
+    font-family: 'probandonuevafuente';
+    src: url(../FuentesGlobales/GloriaHallelujah-Regular.ttf);
+}
 h1,h2{
     font-family: "miprimerafuente";
     color:#3933FF;
@@ -40,4 +44,63 @@ a:hover{
     background-color: #fff;
     color: #000;
     border: 1px solid #c00;
+}
+.portada-perrito{
+    background-image:url(../imagenesGlobal/perro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+
+}
+.prueba{
+    font-family: "probandonuevafuente";
+    font-size: 50px;
+}
+.tercer-titulo{
+    font: 42px "arial black";
+}
+.tercer-parrafo{
+    font: 16px "arial black";
+    border: 1px solid #c00;
+    background: -webkit-linear-gradient(right, #D8D6DF 50%, #CA108F 50%);
+}
+.btn-iniciar-sesion{
+    margin-top: 20px;
+    font-family: "arial black";
+    background: -webkit-linear-gradient(top, #7DE50E, #E5380E, #0E18E5);
+    color: #fff;
+}
+.cuarto-parrafo{
+    font-family: "arial black";
+    font-size: 16px;
+    border: 1px solid purple;
+    background: -webkit-radial-gradient(center, ellipse, #D6D8DF, #7DE50E );
+}
+.primeraimagen{
+    filter: blur(10px);
+}
+.segundaimagen{
+    filter: grayscale(1);
+}
+.terceraimagen{
+    filter: sepia(1);
+}
+.cuartaimagenn{
+    filter: brightness(10);
+}
+.quintaimagen{
+    filter: invert(1);
+}
+.sextaimagen{
+    filter: opacity(0.5);
+}
+.septimaimagen{
+    filter: hue-rotate(190deg);
+}
+.octavaimagen{
+ filter: saturate(0.6);
+}
+.novenaimagen{
+    filter: contrast(0.5);
 }

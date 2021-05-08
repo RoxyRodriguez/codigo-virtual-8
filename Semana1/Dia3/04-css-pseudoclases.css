@@ -45,13 +45,19 @@ thead tr:first-child th:last-child{
 
 nav li{
     display: inline-block;
+    height: 30px;
+    margin: 20px;
 }
-.nav-link{
-    text-decoration: none;
-    font-family: sans-serif;
-    margin-right: 10px;
-    color: #444;
-}
+ .nav-link{
+    background-color:purple;
+    color: #fff;
+    text-decoration: none;    
+    border-radius: 10px;
+    font-family: 'Prompt', sans-serif;   
+    padding: 10px;
+    
+ }    
+    
 /* todos los elementos que tengan la clase ".nav-link y  ademas tengan la clase "active" (tienen que cumplirse las dos clases... si estan separados pues solo afectarian a todos los que tengan la clase active*/
 .nav-link.active{
     font-style: italic;
@@ -71,4 +77,18 @@ font-size: 20px;
 /* todos los hijos de article menos h4 */
 article :not(h4){
     font-style: italic;
+}
+a{
+    
+    
+}
+.fondo-articulo{
+    font: 16px "arial black";
+    border: 1px solid #c00;
+    background: -webkit-radial-gradient(center, ellipse, #D6D8DF, #7DE50E );
+}
+.fondo-articulo2{
+    font: 16px "arial black";
+    border: 1px solid #c00;
+    background: -webkit-radial-gradient(center, ellipse, #D6D8DF, #7DE50E );
 }
