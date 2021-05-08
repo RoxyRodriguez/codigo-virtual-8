@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face{
+    font-family: 'miprimerafuente';/*  el nombre "miprimerafuente" es un nombre cualquiera, solo para asignar al nombre de la fuente asignada.*/
+    src: url('../FuentesGlobales/Montserrat-Regular.ttf');
+}
+@font-face{
+    font-family: 'misegundafuente';/*  el nombre "miprimerafuente" es un nombre cualquiera, solo para asignar al nombre de la fuente asignada.*/
+    src: url('../FuentesGlobales/Montserrat-ExtraLightItalic.ttf');
+}
+h1,h2{
+    font-family: "miprimerafuente";
+    color:#3933FF;
+}
+.descripcion{
+    font-family:"miprimerafuente";
+    font-size: 12px;
+    width: 200px;
+    height: 80px;
+    overflow: scroll;
+    
+}
+.segundo-titulo{
+    font-family: "misegundafuente";
+}
+.fuente-link{
+    font-family: 'Srisakdi', cursive;
+}
+a{
+    background-color: #c00;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: miprimerafuente;
+}
+a:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #c00;
+}
