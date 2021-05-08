@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background: #eee;
+    text-align: center;
+    margin: 0 auto;
+    /* inset valor adicional para que la sombra sea interna */
+    box-shadow: 0px 0px 10px #bbb inset;
+    border-radius: 15px;
+    /* como son hojas de estilo en cascada prevalece el ultimo, caso:margin. */
+    margin-top: 50px;
+}
+
+.cuadrado:hover {
+    box-shadow: 0px 0px 4px #bbb;
+}
