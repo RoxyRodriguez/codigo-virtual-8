@@ -14,6 +14,11 @@ body {
     background-color: #333;
 }
 
+h2 {
+    color: darkblue;
+    text-transform: uppercase;
+}
+
 .cuadrado-amarillo {
     height: 150px;
     width: 150px;
@@ -52,7 +57,7 @@ body {
     cursor: pointer;
 }
 
-.card span {
+.card__date {
     position: absolute;
     top: 10px;
     right: 10px;
