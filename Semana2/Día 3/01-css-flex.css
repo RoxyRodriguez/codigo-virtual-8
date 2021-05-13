@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #999;
+    min-height: 100vh;
+    color: white;
+}
+
+.padre {
+    /* lo maximo que puede ser es 600px o menos */
+    max-width: 600px;
+    /* border: 1px solid white; */
+    margin: 100px auto 0 auto;
+    display: flex;
+    /* hace que si la pantalla se reduce, sus componentes se reubican o se acomodan */
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: #222;
+    /* alinear los elementos en el eje PRINCIPAL */
+    /* EJE PRINCIPAL: "X" cuando flex-direction: :row; */
+    /* EJE PRINCIPAL : "Y" cuando flex-direction : column */
+    /* POR DEFECTO UN PADRE FLEX TIENE flex-direction: :row; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.hijo-1,
+.hijo-2,
+.hijo-3,
+.hijo-4 {
+    border: 1px solid yellow;
+    /* cada hijo se divide uniformemente (peso)*/
+    width: 100px;
+    /* width: 25%; */
+}
+
+.hijo-1 {
+    height: 100px;
+}

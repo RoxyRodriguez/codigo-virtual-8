@@ -15,7 +15,7 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 10px #aaa;
     margin: 100px auto 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 
