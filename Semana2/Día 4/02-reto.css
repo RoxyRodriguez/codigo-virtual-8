@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.card {
+    width: 300px;
+    border: 5px solid #ccc;
+    box-shadow: 0px 0px 20px #111;
+    background-color: #ccc;
+    color: #aaa;
+    margin: 50px auto 0px auto;
+}
+
+
+/* CARD SUPERIOR */
+
+.card__sup {
+    height: 250px;
+    border-radius: 10px;
+    border-bottom-style: dotted;
+    border-width: 0.5px;
+    overflow: hidden;
+    background-color: #fcfcfe
+}
+
+.card__figure {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__figure img {
+    position: relative;
+    top: -70px;
+    left: -50px;
+    filter: sepia(10px);
+}
+
+.card__title {
+    position: absolute;
+    top: 62px;
+    left: 60px;
+    color: #eee;
+}
+
+.card__sup ul {
+    display: flex;
+    padding: 10px;
+}
+
+.card__sup ul li {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+.card__sup ul li:first-child {
+    text-align: left;
+}
+
+.card__sup ul li:last-child {
+    text-align: right;
+}
+
+
+/* FIN CARD SUPERIOR */
+
+
+/* CARD INFERIOR */
+
+.card__inf {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fcfcfe;
+}
+
+.card__inf__tarifas ul {
+    display: flex;
+    padding: 0px 10px 0px 3px;
+}
+
+.card__inf__tarifas ul li {
+    flex: 1;
+    list-style: none;
+    padding: 1rem 0.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.card__inf__tarifas ul li:last-child {
+    text-align: right;
+}
+
+.card__inf__precio {
+    color: rgb(12, 12, 80);
+}
+
+.card__inf__book {
+    color: #eee;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #f99225;
+}
+
+
+/* FIN CARD INFERIOR */
