@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Commissioner-Regular';
+    src: url(../assets/fonts/Commissioner-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Commissioner-Light';
+    src: url(../assets/fonts/Commissioner-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Commissioner-Bold';
+    src: url(../assets/fonts/Commissioner-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Commissioner-ExtraBold';
+    src: url(../assets/fonts/Commissioner-ExtraBold.ttf);
+}

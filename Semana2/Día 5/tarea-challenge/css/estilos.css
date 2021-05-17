@@ -1,0 +1,239 @@
+@import url(./fonts.css);
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: "Commissioner-Light";
+    background-color: #fafafa;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    height: 60vh;
+}
+
+.container:before {
+    content: "";
+    background-image: url(../assets/images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.cabecera {
+    display: flex;
+}
+
+.cabecera .logo {
+    flex: 1;
+    justify-content: left;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.cabecera .menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 40px;
+    padding-right: 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: "Commissioner-regular";
+}
+
+
+/* CAJA 1 */
+
+.container__two {
+    width: 44%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    margin: 2rem auto;
+    position: relative;
+    transform: translateY(-100px);
+}
+
+.logo__mastercraft {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-60px);
+}
+
+.mastercraft h2 {
+    font-family: "Commissioner-Bold";
+    text-align: center;
+    margin-top: -22px;
+}
+
+.mastercraft p {
+    color: hsl(0, 0%, 48%);
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons .buttons__opcion {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn__back {
+    background-color: hsl(176, 50%, 47%);
+    color: #fafafa;
+    padding: 1.2rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn__bookmarked {
+    background-color: rgb(240, 240, 240);
+    padding: 1.2rem 2rem;
+    border-radius: 30px;
+    color: hsl(176, 72%, 28%);
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+}
+
+.buttons__opcion .icono {
+    position: absolute;
+    transform: translateX(-25px);
+    z-index: 1;
+}
+
+.container__three {
+    width: 44%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    margin: 2rem auto;
+    position: relative;
+    transform: translateY(-110px);
+}
+
+.container__three .cantidades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__three .cantidades p {
+    font-family: "Commissioner-extrabold";
+    font-size: 1.5rem;
+}
+
+.container__three .cantidades p span {
+    font-size: 1rem;
+    color: hsl(0, 0%, 48%);
+    font-family: "Commissioner-Light";
+}
+
+progress {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+    background: hsl(176, 72%, 28%);
+}
+
+progress::-webkit-progress-value {
+    background: hsl(176, 72%, 28%);
+}
+
+.container__four {
+    width: 44%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    margin: 2rem auto;
+    position: relative;
+    transform: translateY(-110px);
+}
+
+.container__four h2 {
+    font-family: "Commissioner-bold";
+    margin-bottom: 20px;
+}
+
+.container__four p {
+    line-height: 1.7rem;
+    margin-bottom: 2rem
+}
+
+.container__four .proyectos {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.container__four .proyectos .header__proyecto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__four .proyectos .header__proyecto .title__proyecto {
+    font-family: "Commissioner-bold";
+}
+
+.container__four .proyectos .header__proyecto .price__proyecto {
+    color: hsl(176, 50%, 47%);
+}
+
+.container__four .proyectos .info_proyecto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__four .proyectos .info_proyecto .capacity {
+    font-family: "Commissioner-bold";
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container__four .proyectos .info_proyecto .capacity span {
+    font-family: "Commissioner-Light";
+    color: hsl(0, 0%, 48%);
+    font-size: 1rem;
+}
+
+.container__four .proyectos .info_proyecto .btn__select {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background-color: hsl(176, 50%, 47%);
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    font-family: "Commissioner-bold";
+}
